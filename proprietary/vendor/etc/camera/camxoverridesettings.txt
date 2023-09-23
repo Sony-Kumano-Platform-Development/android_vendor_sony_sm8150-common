@@ -1,0 +1,13 @@
+logInfoMask=0
+logPerfInfoMask=0
+logVerboseMask=0
+logWarningMask=0
+isOEMStatSettingEnable=TRUE
+isOEMIQSettingEnable=TRUE
+isStrideSettingEnable=TRUE
+maxHalRequests=9
+numPCRsBeforeStreamOn=1
+outputFormat=OutputFormatYUV420NV12
+waitAllResultsTimeout=10
+enableDualIFE=FALSE
+systemLogEnable=FALSE

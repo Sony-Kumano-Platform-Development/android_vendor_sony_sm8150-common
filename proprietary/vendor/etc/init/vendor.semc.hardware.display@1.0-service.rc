@@ -1,0 +1,9 @@
+on post-fs-data
+    # create directory for display
+    mkdir /data/vendor/display 0770 system system
+
+service libdisplay-1-0 /vendor/bin/hw/vendor.semc.hardware.display@1.0-service
+    interface vendor.semc.hardware.display@1.0::IDisplay default
+    class hal
+    user system
+    group system readproc
