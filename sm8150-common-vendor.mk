@@ -8,9 +8,46 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/sony/sm8150-common/proprietary/vendor/lib/vendor.somc.hardware.miscta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.miscta@1.0.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/vendor.somc.hardware.miscta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.miscta@1.0.so \
+    vendor/sony/sm8150-common/proprietary/product/etc/permissions/com.sonymobile.camera.addon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sonymobile.camera.addon.xml \
     vendor/sony/sm8150-common/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
+    vendor/sony/sm8150-common/proprietary/system/bin/cacaoserver:$(TARGET_COPY_OUT_SYSTEM)/bin/cacaoserver \
+    vendor/sony/sm8150-common/proprietary/system/etc/init/cacaoserver.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/cacaoserver.rc \
+    vendor/sony/sm8150-common/proprietary/system/etc/permissions/com.sonymobile.imageprocessor.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.imageprocessor.xml \
+    vendor/sony/sm8150-common/proprietary/system/etc/permissions/privapp-permissions-sony.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-sony.xml \
+    vendor/sony/sm8150-common/proprietary/system/lib/libcacao_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_client.so \
+    vendor/sony/sm8150-common/proprietary/system/lib/libcacao_pal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_pal.so \
+    vendor/sony/sm8150-common/proprietary/system/lib/libcacao_process_ctrl_gateway.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_process_ctrl_gateway.so \
+    vendor/sony/sm8150-common/proprietary/system/lib/libcacao_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_service.so \
+    vendor/sony/sm8150-common/proprietary/system/lib/libimageprocessorjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimageprocessorjni.so \
+    vendor/sony/sm8150-common/proprietary/system/lib/vendor.somc.hardware.camera.cacao@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@1.0.so \
+    vendor/sony/sm8150-common/proprietary/system/lib/vendor.somc.hardware.camera.cacao@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@2.0.so \
+    vendor/sony/sm8150-common/proprietary/system/lib/vendor.somc.hardware.camera.cacao@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@3.0.so \
+    vendor/sony/sm8150-common/proprietary/system/lib/vendor.somc.hardware.camera.cacao@3.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@3.1.so \
+    vendor/sony/sm8150-common/proprietary/system/lib/vendor.somc.hardware.camera.cacao@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@3.2.so \
+    vendor/sony/sm8150-common/proprietary/system/lib/vendor.somc.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.device@1.0.so \
+    vendor/sony/sm8150-common/proprietary/system/lib/vendor.somc.hardware.camera.provider@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.provider@1.0.so \
+    vendor/sony/sm8150-common/proprietary/system/lib64/libcacao_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_client.so \
+    vendor/sony/sm8150-common/proprietary/system/lib64/libcacao_pal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcacao_pal.so \
+    vendor/sony/sm8150-common/proprietary/system/lib64/libimageprocessorjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimageprocessorjni.so \
     vendor/sony/sm8150-common/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/sony/sm8150-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libSNPE.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libSNPE.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libarcsoft_handsigns.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libarcsoft_handsigns.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libc++_shared.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libdetector.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libdetector.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libhandsigns_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libhandsigns_jni.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libhta.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libhta.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libimage_converter.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libimage_converter.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libmpbase.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe-android.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe-android.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_adsp.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_adsp.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_domains.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_domains.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_domains_skel.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_domains_skel.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_domains_v2.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_skel.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_skel.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_v65_domains_v2_skel.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_v65_domains_v2_skel.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so \
+    vendor/sony/sm8150-common/proprietary/system/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsymphony-cpu.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libsymphony-cpu.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib/libMiscTaWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiscTaWrapper.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/libMiscTaWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMiscTaWrapper.so \
     vendor/sony/sm8150-common/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
@@ -236,6 +273,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8150-common/proprietary/vendor/etc/acdbdata/Sony_kumano_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_kumano_Hdmi_cal.acdb \
     vendor/sony/sm8150-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/sony/sm8150-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
+    vendor/sony/sm8150-common/proprietary/vendor/etc/be_movie_spc:$(TARGET_COPY_OUT_VENDOR)/be_movie_spc \
     vendor/sony/sm8150-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/sony/sm8150-common/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/sony/sm8150-common/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
@@ -779,6 +817,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8150-common/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
+    vendor/sony/sm8150-common/proprietary/vendor/lib/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_app_profiles.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
@@ -1135,6 +1174,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
+    vendor/sony/sm8150-common/proprietary/vendor/lib/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_app_profiles.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so \
     vendor/sony/sm8150-common/proprietary/vendor/lib64/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsqimf.so \
@@ -1527,4 +1567,13 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.servicetracker@1.2-service
+    vendor.qti.hardware.servicetracker@1.2-service \
+    SemcCameraUI-xxhdpi-release \
+    CameraAddonPermission \
+    CameraCommonPermission \
+    CameraExtensionPermission \
+    ImageProcessorPermission \
+    CameraCommon \
+    CameraPanorama \
+    com.sonymobile.imageprocessor.bypasscamera_impl \
+    com.sonymobile.camera.addon_impl \
